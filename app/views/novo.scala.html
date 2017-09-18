@@ -1,0 +1,62 @@
+@(header: String, form: Form[Contato])
+
+@main("Novo Contato - Agenda"){
+
+
+
+
+
+  <section id="title" class="belize-hole navbar-fixed-top " role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Agregar personas</h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <a href="@routes.ContatoController.lista"">
+          <button type="button"  class="btn btn-large btn-large btn-warning col-sm-12 "> Volver a inicio </button>
+        </a>
+
+      </div>
+    </div>
+  </section><!--/#title-->
+
+
+  <section id="registration" class=" wet-asphalt navbar-fixed">
+
+  @helper.form(action = routes.ContatoController.salva() ){
+
+
+
+      <centre>
+      <form class="center animated bounceInLeft" role="banner">
+        <fieldset class="registration-form wet-asphalt">
+          <fieldset class="registration-form wet-asphalt">
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+
+          <div class="form-group">
+            <input type="text" id="nome" name="nome" placeholder="Nombre" class="form-control" value="@form("nome").value">
+          </div>
+          <div class="form-group">
+            <input type="text" id="telefone" name="telefone" placeholder="Habilidad" class="form-control"value="@form("telefone").value">
+          </div>
+
+          <div class="form-group">
+            <button class="  btn btn-primary btn-md" type="submit">Agregar</button>
+          </div>
+
+          </fieldset>
+        </fieldset>
+      </form>
+      </centre>
+  }
+  </section><!--/#registration-->
+}

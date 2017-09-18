@@ -1,0 +1,19 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+
+GET     /person2                    controllers.PersonController.index()
+POST    /person                     controllers.PersonController.addPerson()
+GET     /persons                    controllers.PersonController.getPersons()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+
+GET     /                           controllers.ContatoController.lista()
+
+GET     /contato/novo               controllers.ContatoController.novo()
+
+POST    /contato/novo               controllers.ContatoController.salva()
