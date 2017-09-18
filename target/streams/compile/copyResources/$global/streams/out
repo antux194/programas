@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\conf\application.conf,C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\conf\logback.xml,C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\conf\META-INF,C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\target\scala-2.11\classes\META-INF)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\conf\routes,C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\conf\META-INF\persistence.xml,C:\Users\SA\Desktop\play-java-jpa-example-2.5.x\target\scala-2.11\classes\META-INF\persistence.xml)[0m
